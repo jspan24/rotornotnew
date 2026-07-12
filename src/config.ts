@@ -18,7 +18,7 @@
  * still work on-device; only cloud publish/fetch is disabled).
  */
 export const CONFIG = {
-  MODEL_SYNC_URL: '',
+  MODEL_SYNC_URL: 'https://rot-or-not-1594f-default-rtdb.firebaseio.com/rotornot/model.json',
   MODEL_SYNC_AUTH: '',
 
   /** Mic capture settings — 16 kHz mono is plenty for knock transients. */
