@@ -16,6 +16,16 @@
       "infoPlist": {
         "NSMicrophoneUsageDescription": "Rot or Not listens to your watermelon knocks to score ripeness."
       }
-    }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.25"
+          }
+        }
+      ]
+    ]
   }
 }
