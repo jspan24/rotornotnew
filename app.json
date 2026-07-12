@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Rot or Not",
+    "slug": "rot-or-not",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "platforms": ["ios", "android"],
+    "android": {
+      "package": "com.rotornot.app",
+      "permissions": ["android.permission.RECORD_AUDIO"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.rotornot.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Rot or Not listens to your watermelon knocks to score ripeness."
+      }
+    }
+  }
+}

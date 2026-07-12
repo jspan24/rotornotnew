@@ -1,0 +1,4 @@
+{
+  "untrained": true,
+  "note": "Replace this file with a published model JSON (from the cloud sync endpoint or the trainer phone) before release, so fresh installs can score watermelons before their first cloud sync."
+}
